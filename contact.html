@@ -56,13 +56,15 @@
     <div class="container">
       <div class="center">
         <h2>Dejános tú Mensaje</h2>
+        <div class="text-center">
         <p>Si deseas formar parte de Fundación Creceré, puedes comunicarte con nosotros, Cualquier ayuda es bien recibida.</p>
+        </div>
       </div>
       <div class="row contact-wrap">
         <div class="col-md-8 col-md-offset-2">
-          <div id="sendmessage">Tu mensaje a sido enviao. Gracias!</div>
+          <div id="sendmessage">Tu mensaje a sido enviado. Gracias!</div>
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form action="https://formspree.io/mvowkpjj" method="post" role="form" class="contactForm">
             <div class="form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Escribe tu nombre" data-rule="minlen:4" data-msg="Por favor ingresa tu nombre completo" />
               <div class="validation"></div>
@@ -82,6 +84,8 @@
 
             <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Enviar Mensaje</button></div>
           </form>
+          <br>
+          <br>
         </div>
       </div>
       <!--/.row-->
@@ -100,20 +104,23 @@
             </p>
           </div>
           <div class="col-md-4 l-posts">
-            <h3 class="widgetheading">Actualmente trabajando en:</h3>
+            <div>
+              <img src="./img/Ban_1.png" width="350" height="250">
+            </div>
+            <!-- <h3 class="widgetheading">Actualmente trabajando en:</h3>
             <ul>
               <li><a href="#">Jalapa, cabecera departamental.</a></li>
               <li><a href="#">San Pedro Pinual, Jalapa</a></li>
               <li><a href="#">San Luis Jilotepeque, Jalapa</a></li>
               <li><a href="#">Mataquescuintla, Jalapa</a></li>
-            </ul>
+            </ul> -->
           </div>
           <div class="col-md-4 f-contact">
             <h3 class="widgetheading">¡Estamós para servirté, Comunicate con Nosotros!</h3>
-            <a href="#">
-              <p><i class="fa fa-envelope"></i> fundacion@funcrecere.org</p>
+            <a href="mailto:fundacion@funcrecere.org"">
+              <p><i class="fa fa-envelope"></i> fundacion@funcrecere.org <br> <i class="fa fa-envelope"></i> donaciones@funcrecere.org</p>
             </a>
-            <p><i class="fa fa-phone"></i> +502 3083 9129</p>
+            <p><i class="fa fa-phone"></i> +502 3083 9129 <br><i class="fa fa-phone"></i> +502 5134 2657 <br><i class="fa fa-phone"></i> +502 5017 0988</p>
             <p><i class="fa fa-home"></i> Fundación Creceré | Zona 2, Barrio San Francisco <br> Jalapa, Jalapa, Guatemala 21001</p>
           </div>
         </div>
@@ -136,11 +143,11 @@
       <div class="container">
         <div class="row">
           <ul class="social-network">
-            <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
-            <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
-            <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
-            <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li>
-            <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+            <li><a href="https://www.facebook.com" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+            <li><a href="https://www.twitter.com" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+            <li><a href="https://www.linkedin.com" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
+            <!-- <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li> -->
+            <!-- <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li> -->
           </ul>
         </div>
       </div>
@@ -165,7 +172,7 @@
   <script type="text/javascript">
     $('.portfolio').flipLightBox()
   </script>
-  <script src="contactform/contactform.js"></script>
+  <!-- <script src="contactform/contactform.js"></script> -->
 
 </body>
 
